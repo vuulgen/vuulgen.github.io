@@ -1,0 +1,34 @@
+body {
+    background-color:purple;
+}
+h1 {
+    background-color:chartreuse;
+    padding:8px;
+    text-align:center;
+    font-size:2em;
+}
+p {
+    color:white;
+}
+/*
+Comment goes here
+ */
+.fancy {
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:1.6em;
+    color:palegoldenrod;
+    border:1px solid white;
+    padding:50px 10px 100px 200px;
+    margin:40px;
+    margin-left:420px;
+    background-color: red;
+}
+#david {
+    width:100px;
+}
+.superfancy{
+    font-family: 'Great Vibes', cursive;
+    color:dimgray;
+    font-size:2em;
+}
