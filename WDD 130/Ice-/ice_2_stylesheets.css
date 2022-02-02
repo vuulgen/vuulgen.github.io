@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(116, 113, 113);
+   
+}
+main {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+    
+
+}
+#desk-img {
+    border-radius: 50%;
+    border-color: black;
+    margin-left: 10px;
+}
+#person-img {
+    border-radius: 50%;
+    border-color: black;
+    margin:auto;
+}
+#graphic-img {
+    border-radius: 50%;
+    border-color: black;
+    margin-right: 10px;
+}
