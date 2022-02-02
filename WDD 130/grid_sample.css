@@ -1,0 +1,23 @@
+body {
+    background-color: maroon;
+}
+main {
+    display:grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+.cuteness {
+    background-color: hotpink;
+    
+}
+.destruction {
+    background-color: peru;
+    grid-row: 2;
+    grid-column: 2/4;
+}
+.care {
+    background-color: aqua;
+}
+.destruction div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
