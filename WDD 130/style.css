@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:ital@1&display=swap');
+/* 'Fredericka the Great', 'Open Sans', 'Helvetica', 'sans-serif' */
+
+.home-tittle{
+    font-family: 'Fredericka the Great', 'Open Sans', 'Helvetica';
+    font-size: 2em;
+    margin-top: 10px;
+}
+#logo_link {
+    padding-top: 5px;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
-
 }
 #background {
     height:725px;
@@ -11,20 +21,47 @@ Nav a {
     text-align: center;
     color: #4b3110;
     text-decoration:none;
+    padding:35;
 
 }
 .msg {
+    font-family:'Fredericka the Great';
     color: rgb(66, 40, 0);
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg p {
+    padding-bottom: 15px;
 }
 footer{
     background:rgb(236, 193, 127);
+    padding: 25px 50px;
+    margin-top:200px;
 }
 footer a{
     text-decoration: none;
 }
+footer a:hover  {
+    text-decoration: underline;
+    background-color:rgb(222, 223, 143)
+}
+footer .social img {
+    padding-top: 15px;
+}
 #hero-msg  {
     text-align: center;
-
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
 }
 .button_box {
     text-align: center;
@@ -34,38 +71,47 @@ main section {
     text-align: center;
 
 }
+main section img {
+    box-sizing: border-box;
+}
 body {
+    font-family: 'Open sans', 'sans-serif';
     background-color: #accead; 
-
+    font-size: 22px;
+    margin: 0;
+    padding:0;
 }
 header {
     background-color:rgba(76, 155, 158, 0.76);
-
 }
 nav a:hover {
     background-color: grey;
-
 }
-.book {
+.book, .join {
     color: blueviolet;
     text-decoration: none;
+    font-size: 18px;
+    padding:15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color:burlywood;
 }
 .join:hover {
     background-color:burlywood;
+    font-size: 18px
 }
 .icon {
     width:80px;
-}
-footer a:hover  {
-    text-decoration: underline;
-    background-color:rgb(222, 223, 143)
-
+    padding-top: 10px;
 }
 h1 {
     text-align: center;
+}
+h2 {
+    font-family:'Fredericka the Great';
+    margin:0;
 }
 h3 {
     text-align: underline;
