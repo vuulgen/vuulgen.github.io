@@ -1,21 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:ital@1&display=swap');
 /* 'Fredericka the Great', 'Open Sans', 'Helvetica', 'sans-serif' */
 
-.home-tittle{
-    font-family: 'Fredericka the Great', 'Open Sans', 'Helvetica';
-    font-size: 2em;
-    margin-top: 10px;
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color:rgba(76, 155, 158, 0.76);
 }
-#logo_link {
-    padding-top: 5px;
-}
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-#background {
-    height:725px;
-    background-color: rgba(229, 191, 160, 0.596);
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 Nav a {
     text-align: center;
@@ -23,6 +17,53 @@ Nav a {
     text-decoration:none;
     padding:35px;
 
+}
+nav a:hover {
+    background-color: grey;
+}
+.home-tittle{
+    font-family: 'Fredericka the Great', 'Open Sans', 'Helvetica';
+    font-size: 2em;
+    margin-top: 10px;
+    color:rgb(236, 193, 127);
+
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-img {
+    width:100%
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px
+}
+#hero-msg  {
+    color: white;
+    text-align: center;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#background {
+    height:725px;
+    background-color: rgba(229, 191, 160, 0.596);
 }
 .msg {
     font-family:'Fredericka the Great';
@@ -48,12 +89,7 @@ footer a:hover  {
 footer .social img {
     padding-top: 15px;
 }
-#hero-img {
-    width:100%
-}
-#hero-msg  {
-    text-align: center;
-}
+
 .rivers-card {
     margin: 200px 0px;
 }
@@ -84,12 +120,7 @@ body {
     margin: 0;
     padding:0;
 }
-header {
-    background-color:rgba(76, 155, 158, 0.76);
-}
-nav a:hover {
-    background-color: grey;
-}
+
 .book, .join {
     color: blueviolet;
     text-decoration: none;
