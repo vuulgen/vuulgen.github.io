@@ -1,0 +1,28 @@
+/* converting from phone to computer
+*/
+
+/*  main> {
+    display:grid;
+    grid-template-colums: 1fr 1fr 1fr;
+}
+
+    @media screen and max-width:900px; {
+
+        <main> {
+            grid-template-colums:1fr; 
+        }   
+    } 
+
+
+    main{
+    display:grid;
+    grid-template-colums:1fr;
+}
+    @media scree and min-width: 900px {
+        main{
+            grid-template-columns:1fr 1fr 1fr;
+        }
+    }
+@media screen and min-width:1280px {
+
+} */

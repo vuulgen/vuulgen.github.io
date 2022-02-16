@@ -1,0 +1,31 @@
+main {
+   
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap: 25px;
+}
+
+body { 
+    text-align: center;
+}
+
+.subscribe {
+    text-align: center;
+    color: white;
+    background-color: lightsalmon;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 50px;
+   
+}
+
+/* .email, .name {
+    margin-bottom:50px;
+} */
+ #opt {
+     margin-bottom:50px;
+ }
+

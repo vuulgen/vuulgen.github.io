@@ -21,7 +21,7 @@ Nav a {
     text-align: center;
     color: #4b3110;
     text-decoration:none;
-    padding:35;
+    padding:35px;
 
 }
 .msg {
@@ -48,17 +48,20 @@ footer a:hover  {
 footer .social img {
     padding-top: 15px;
 }
+#hero-img {
+    width:100%
+}
 #hero-msg  {
     text-align: center;
 }
 .rivers-card {
-    margin: 200px 0;
+    margin: 200px 0px;
 }
 .camping-card{
-    margin: 200px 0;
+    margin: 200px 0px;
 }
 .rapids-card{
-    margin: 200px 0;
+    margin: 200px 0px;
 }
 .card-img {
     border: 10px solid black;
@@ -94,13 +97,16 @@ nav a:hover {
     padding:15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    background-color:rgba(76, 155, 158, 0.76)
 }
 .book:hover {
     background-color:burlywood;
+
 }
 .join:hover {
     background-color:burlywood;
     font-size: 18px
+
 }
 .icon {
     width:80px;
