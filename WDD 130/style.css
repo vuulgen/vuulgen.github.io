@@ -29,7 +29,7 @@ nav a:hover {
 
 }
 .home-grid {
-    grid-template-columns: 10fr;
+    /* grid-template-columns: 10fr; */
 }
 
 #logo_link {
@@ -78,6 +78,7 @@ nav a:hover {
     line-height: 1.5em;
     padding: 35px;
     box-shadow: 5px 5px 10px #6f7364;
+    background-color:beige;
 }
 .msg p {
     padding-bottom: 15px;
@@ -141,7 +142,7 @@ footer .social img {
 }
 main {
     display: grid;
-    grid-template-columns: 10fr;
+    grid-template-columns:repeat(10,1fr);
 }
 main section {
     text-align: center;
