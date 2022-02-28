@@ -1,0 +1,12 @@
+main {
+    display: grid;
+    grid-template-columns:300px; 
+}   
+body{
+    background-color: white;
+    text-align: center;
+}
+footer{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
