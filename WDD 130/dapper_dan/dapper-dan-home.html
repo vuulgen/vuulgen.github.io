@@ -11,14 +11,17 @@
 </head>
 <body>
     <div id="content">
-        <header>
-        <a class="logo_link" href="dapper-dan-home.html">
-            <img src="dapper_img/dapper_coller.jpg" alt="sltyle at less of a cost." style="width:85px;">
-        </a>
-        <nav>
+        <header id="navbar">
+           
+        <nav >
+            <div id="logo_link">
+                <a  href="dapper-dan-home.html">
+                    <img src="dapper_img/dapper_coller.jpg" alt="sltyle at less of a cost." style="width:85px;">
+                </a>
+            </div>
             <a href="dapper-dan-home.html">Home</a>
             <a href="dapper-dan-subpage.html">Vintage</a>
-            <a href="dapper-dan-subpage2.html">Accessorys</a>
+            <a href="dapper-dan-subpage2.html">About us</a>
             <a href="dapper-dan-contactus">Contact us</a>
                 <div id="search-bar">
                     <i class="fa-solid fa-magnifying-glass"></i>
@@ -100,9 +103,9 @@
             </main>
             <footer>
                 <h3>Dapper Dan &copy; 2022 - William Willis</h3>
-                <h3><a href="site-plan-rafting.html">Site Plan</a></h3>
+                <h3><a href="dapper-dan.html">Site Plan</a></h3>
                 <h3><a href="dapper-dan-contactus.html">Contact US</a></h3>
-                <h3><a href="dapper-dan-about.html">About</a></h3>
+                <h3><a href="dapper-dan-subpage2.html">About</a></h3>
                 <div class ="social">
                     <a href="https://facebook.com" target="_blank">
                         <img src="dapper_img/facebook.png" alt="fb icon">
@@ -114,7 +117,19 @@
                         <img src="dapper_img/instagram.png" alt="instagram icon">
                     </a>
                 </div>
-            </footer>    </div>
-    
+            </footer>
+        </div>
+        <script>
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+              if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+              } else {
+                document.getElementById("navbar").style.top = "-25%";
+              }
+              prevScrollpos = currentScrollPos;
+            }
+            </script>
 </body>
 </html>
