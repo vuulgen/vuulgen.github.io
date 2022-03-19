@@ -3,20 +3,24 @@
 
 
 #content {
-    max-width: 1600px;
-    margin: 0 auto;
+  margin: 0 auto;
+  background-color: #f1e4e8;
 }
-body {
-    margin: 0;
-    background-color: #f1f1f1;
-    font-family: Arial, Helvetica, sans-serif;
+.space-bar {
+  background-color: #f1e4e8;
+  width: 80%;
+  height: 100%;
+  margin: auto;
   }
-  header{
-    
-  }
+.bar{
+  background-color:#001514;
+  width:100%;
+  height:120px;
+}
 #logo_link{
     padding-left: 5px;
     padding-block-start: 5px;
+    padding-bottom:5px;
     justify-self: center;
     align-self: center;
   }
@@ -29,11 +33,10 @@ body {
     display: grid;
     grid-template-columns: 1fr auto;
     background-color: rgba(236, 165, 44, 0.788);
-    /* background-color: rgba(66, 0, 57, 0.658); */
     position: fixed;
     top: -10;
     width: 100%;
-    display: block;
+    display: inline-block;
     transition: top 0.5s;
   }
   
@@ -47,11 +50,244 @@ body {
     font-size: 25px;
     margin:auto;
   }
-  
   #navbar a:hover {
-    /* background-color: rgba(241, 228, 232, 1);
-    border-color:  rgba(241, 228, 232, 1);
-     */
      color:rgba(241, 228, 232, 1);
   }
+  #hero-msg{
+    background-color: rgba(236, 165, 44, 0.788);
+    width:50%;
+    text-align: center;
+    margin:auto;
+  }
+
+    .home-tittle{
+    text-align: center;
+    
+    }
+    .container1-page1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+    .single-suit{
+      grid-column:1;
+    }
+    .turn-heads{
+    margin-block: auto;
+    }
+
+footer{
+  background-color: rgba(236, 165, 44, 0.788);
+  padding: 10px 50px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer a{
+    text-decoration: none;
+    color:#6C6F7F;
+}
+/* footer a:hover  {
   
+    text-decoration: underline;
+    background-color:#420039;
+    color:rgba(241, 228, 232, 1);
+    /* color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color); */
+} */
+
+
+footer .social img {
+    padding-top: 15px;
+}
+
+
+
+  /* test */
+
+
+
+  /* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a | */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Nunito+Sans:ital,wght@0,300;1,400&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #f1e4e8   ;
+  --secondary-color: #6C6F7F ;
+  --accent1-color: #001514;
+  --accent2-color: #420039;
+  --accent2-color: #ECA72C
+
+  ;
+
+  
+  
+  /* change the values below to your chosen font(s) */
+  --heading-font:'Dancing Script', cursive;
+  --paragraph-font:'Nunito Sans', sans-serif, Helvetica, sans-serif;
+  
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #420039;  /* headlines on a white background */ 
+  --headline-color-on-color: #6C6F7F; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #001514; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #420039; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #ECA72C  ;
+  --nav-link-color: #001514;
+  --nav-background-color: #ECA72C;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #420039;
+}
+
+
+/*  Look around below...but DON'T CHANGE ANYTHING! */
+
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+  /* padding: 4em; */
+  font-size: 18px;
+  /* text-align: center; */
+  background-color:#001514;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+h2 {
+  text-align: center;
+}
+hr {
+  height: 3px;
+  margin: 35px 0;
+  background: var(--accent1-color);
+}
+/* header {
+  padding: 1em;
+  text-align: center;
+  color: var(--paragraph-color-on-color);
+  background-color: var(--paragraph-background-color);
+} */
+header > h1, header > h2 {
+  color: var(--headline-color-on-color);
+}
+
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color);
+  padding: 1em;
+}
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: 30px auto;
+  text-align: center;
+}
+.colors th {
+  background-color: #999;
+}
+.colors td{
+  width: 25%;
+  height: 3em;
+}
+
+.primary {
+  background-color: var(--primary-color);
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+.accent1 {
+  background-color: var(--accent1-color);
+}
+.accent2{
+  background-color: var(--accent2-color);
+}
+
+p.colored {
+  background-color: var(--paragraph-background-color);
+  color: var(--paragraph-color-on-color);
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+}
+nav  {
+  list-style-type: none;
+  display: flex;
+
+}
+nav a {
+  padding:1em;
+  min-width: 120px;
+  text-decoration: none;
+  padding: 10px;
+
+}
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+nav a:hover, footer a:hover{
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+
+.sitemap {
+  display: grid;
+  justify-content: center;
+
+  grid-template-columns: repeat(6, 15%);
+  grid-template-rows: 3em 1.5em 1.5em 3em;
+  grid-template-areas: ". . home home . ."
+    ". . . top . ."
+    ". left left right right ."
+    "page2 page2 . . page3 page3";
+}
+.sitemap > div {
+
+  text-align: center;
+
+}
+.sm-home {
+  grid-area: home;
+  background-color: #ccc;
+  line-height: 3em;
+}
+.sm-page2 {
+  grid-area: page2;
+  background-color: #ccc;
+  line-height: 3em;
+}
+.sm-page3 {
+  grid-area: page3;
+  background-color: #ccc;
+  line-height: 3em;
+}
+
+.top {
+  grid-area: top;
+  border-left: 1px solid;
+}
+
+.left {
+  grid-area: left;
+  border-top: 1px solid;
+  border-left: 1px solid;
+}
+
+.right {
+  grid-area: right;
+  border-top: 1px solid;
+  border-right: 1px solid;
+}
