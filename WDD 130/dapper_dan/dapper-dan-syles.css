@@ -4,7 +4,7 @@
 
 #content {
   margin: 0 auto;
-  background-color: #f1e4e8;
+  /* background-color: #f1e4e8; */
 }
 .space-bar {
   background-color: #f1e4e8;
@@ -32,7 +32,7 @@
   #navbar {
     display: grid;
     grid-template-columns: 1fr auto;
-    background-color: rgba(236, 165, 44, 0.788);
+    background-color: #eca72c;
     position: fixed;
     top: -10;
     width: 100%;
@@ -54,7 +54,7 @@
      color:rgba(241, 228, 232, 1);
   }
   #hero-msg{
-    background-color: rgba(236, 165, 44, 0.788);
+    background-color: #eca72c;
     width:50%;
     text-align: center;
     margin:auto;
@@ -68,15 +68,44 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     }
+
     .single-suit{
       grid-column:1;
     }
     .turn-heads{
     margin-block: auto;
     }
+.subpage1-grid{
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+  padding:15px;
+}
+  .container1-page2{
+    grid-row:1;
+    display:contents;
+  }
+    .vintage-dapper-men{
+      grid-column:1;
+    }
+    .vintage-era{
+      margin: auto;
+      padding-left: 30px;
+      background-color: #eca72c;
+      color: #6C6F7F;
+    }
+  .container2-page2{
+    display:contents;
+    grid-template-columns:1fr 3fr;
+    /* grid-row:2 */
+  }
+    .check-boxes{
+      display:grid;    }
+    .search-engine{
+      grid-column:3fr;
+    }
 
 footer{
-  background-color: rgba(236, 165, 44, 0.788);
+  background-color: #eca72c;
   padding: 10px 50px;
   margin-top: 100px;
   display: flex;
@@ -92,8 +121,6 @@ nav a:hover, footer a:hover{
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
-
-
 footer .social img {
     padding-top: 15px;
 }
