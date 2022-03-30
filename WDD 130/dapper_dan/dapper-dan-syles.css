@@ -118,17 +118,18 @@
   .container1-page3 img{
     margin:0;
     width:100%;
-    height:490px;
+    height: 541px;
     object-fit: cover;
     object-position: top;
   }
-  .dapper-tots{
-    background-color: #eca72c;
+  .container1-page3 div{
     padding:10px;
   }
-    .dapper-tots-img{
+  .dapper-tots{
+    background-color: #eca72c;
 
-    }
+  }
+    
     .dapper-tots a:hover{
       background-color: #420039;
       color: #f1e4e8;
@@ -139,8 +140,29 @@
       color: #6C6F7F;
     }
   .container2-page3{
-    grid-template-columns: 1fr 1fr;
+    display:grid;
+    grid-gap:1px;
+    /* display:grid;
+    grid-template-columns: 1fr 1fr; */
 }
+    .dapper-dan-img{
+      grid-column:2;
+      height:500px;
+    }
+    .dapper-dan-about{
+      grid-column: 1;
+      grid-row: 1;
+      background-color: #eca72c;
+      /* grid-column:2; */
+}
+    .dapper-dan-about h3{
+      text-align: center;
+      font-size:30px;
+    }
+    .about-spacing{
+      grid-column:1/3;
+    }
+
 footer{
   background-color: #eca72c;
   padding: 10px 50px;
